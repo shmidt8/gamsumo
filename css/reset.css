@@ -1,0 +1,278 @@
+html, body, div, span, object, iframe, img, strong, b, u, i,table,tbody, tfoot, thead,td,th,tr
+form, label, legend,header,footer,article,section,aside{margin:0; padding:0; border:0; vertical-align:baseline; background:transparent;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+input:focus, select:focus, textarea:focus, button:focus {outline:none}
+html, body{width:100%; height:100%;}
+.clearfix::after{clear: both; content: "";	display: table;}
+*{box-sizing: border-box; outline: none;}
+button,input[type="button"],input[type="submit"]{cursor: pointer}
+table,td,th,tr {border-collapse:collapse; border-spacing:0;}
+input, select, textarea,button {font-family: arial, helvetica, sans-serif; font-weight:400; color: #000;}
+
+/*.clear{clear:both; font-size:0;}*/
+
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/opensans/regular.eot");
+    src: url("../fonts/opensans/regular.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/opensans/regular.woff") format("woff"),
+         url("../fonts/opensans/regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/opensans/bold.eot");
+    src: url("../fonts/opensans/bold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/opensans/bold.woff") format("woff"),
+         url("../fonts/opensans/bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/opensans/semibold.eot");
+    src: url("../fonts/opensans/semibold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/opensans/semibold.woff") format("woff"),
+         url("../fonts/opensans/semibold.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/opensans/extrabold.eot");
+    src: url("../fonts/opensans/extrabold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/opensans/extrabold.woff") format("woff"),
+         url("../fonts/opensans/extrabold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/opensans/light.eot");
+    src: url("../fonts/opensans/light.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/opensans/light.woff") format("woff"),
+         url("../fonts/opensans/light.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/opensans/light.eot");
+    src: url("../fonts/opensans/light.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/opensans/light.woff") format("woff"),
+         url("../fonts/opensans/light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'pf_beausans_prothin';
+    src: url('../fonts/pfbeausanspro/pfbeausanspro-thin-webfont.eot'),
+         url('../fonts/pfbeausanspro/pfbeausanspro-thin-webfont.woff2') format('woff2'),
+         url('../fonts/pfbeausanspro/pfbeausanspro-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+h1{
+    font-weight: 600;
+    font-size: 34px;
+    color: #0a1826;
+    margin: 0;
+    padding: 10px 0 13px 0;
+    letter-spacing: -1px;
+}
+h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #2b69a9;
+    margin: 0;
+    padding: 10px 0 13px 0;
+    letter-spacing: -1px;
+}
+h3{
+    font-weight: 600;
+    font-size: 26px;
+    color: #0a1826;
+    margin: 0;
+    padding: 10px 0 13px 0;
+    letter-spacing: -1px;
+}
+h4{
+    font-weight: 600;
+    font-size: 22px;
+    color: #2b69a9;
+    padding: 10px 0 13px 0;
+    margin: 0;
+    letter-spacing: -1px;
+}
+h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: #0a1826;
+    padding: 10px 0 13px 0;
+    margin: 0;
+    letter-spacing: -1px;
+}
+h6{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 0 13px 0;
+    color: #2b69a9;
+    margin: 0;
+    letter-spacing: -1px;
+}
+p{
+    font-size: 14px;
+    padding: 0 0 12px 0;
+    line-height: 20px;
+    color: #767b80;
+}
+q{
+    display: block;
+    text-align: center;
+    color: #767b80;
+    font-weight: 400;
+    line-height: 31px;
+    font-size: 16px;
+}
+.red{
+
+}
+.bullet{
+    padding-left: 17px;
+    margin-bottom: 30px;
+}
+th{
+    background: #f0f5f8;
+    padding: 13px;
+    border: 1px solid #abb2b9;
+    color: #0a1826;
+    font-weight: 600;
+    line-height: 16px;
+}
+td{
+    border: 1px solid #abb2b9;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 10px;
+    color: #767b80;
+}
+abbr{
+    border-bottom: thin dashed;
+    cursor: help;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2b69a9;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+pre{
+    background: #e3dfdf;
+    padding: 20px;
+    color: #0a1826;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    overflow: hidden;
+}
+ul{
+    padding-bottom: 20px;
+}
+ol.bullet {
+    padding-left: 17px;
+    margin-bottom: 15px;
+}
+ul.bullet {
+    padding-left: 16px;
+    margin-bottom: 15px;
+}
+ul li{
+    line-height: 28px;
+    color: #767b80;
+    padding-left: 20px;
+    list-style-image: url(../img/arrow.png);
+    list-style-position: inside;
+}
+ol{
+    counter-reset: myCounter;
+    margin-bottom: 20px;
+    padding: 0;
+}
+ol li{
+    list-style: none;
+    position: relative;
+    line-height: 28px;
+    padding: 0 0 15px 45px;
+}
+ol li::before{
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    color: white;
+    background: #2b69a9;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+}
+
+dt{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #0a1826;
+    padding: 10px;
+}
+dd{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #767b80;
+    padding: 10px;
+}
+caption{
+    text-align: left;
+    color: #0a1826;
+    font-weight: 600;
+    line-height: 31px;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+ tfoot, thead{
+    text-align: left;
+ }
+
+::-webkit-input-placeholder {color:#a9b0b7;}
+::-moz-placeholder          {color:#a9b0b7;}/* Firefox 19+ */
+:-moz-placeholder           {color:#a9b0b7;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#a9b0b7;}
